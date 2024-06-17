@@ -1,0 +1,157 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url('https://i.pinimg.com/originals/ec/b6/41/ecb6416c16b66e9e5409def9271224a2.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    animation: beweegAchtergrond 30s linear infinite;
+}
+
+@keyframes beweegAchtergrond {
+    0% { background-position: 0 0; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden; /* Zorgt dat de inhoud binnen de container blijft */
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparante achtergrond */
+    padding: 20px 0;
+    text-align: center;
+}
+
+#intro {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    margin-right: 20px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50%; /* maakt de profielfoto rond */
+}
+
+.intro-text {
+    color: #fff;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #4285f4;
+}
+
+.section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparante achtergrond voor de secties */
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.blog-post, .portfolio-item {
+    background-color: #424242;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.blog-post h3, .portfolio-item h3 {
+    color: #fff;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-form {
+    padding: 20px;
+    background-color: rgba(66, 133, 244, 0.7); /* Licht transparante blauwe achtergrond */
+    border-radius: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333; /* Zorg ervoor dat tekst leesbaar is */
+    background-color: #fff; /* Achtergrondkleur voor inputvelden */
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #1a73e8;
+}
+
+footer {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
