@@ -62,6 +62,14 @@
                 <p>In my second module of Uni I did a group project about keeping food fresh for a longer time period. We used lights with a certain frequency to elongate the foods lifespan.                    
                 </p>
             </div>
+            <div class="portfolio-item">
+            <h3>Excel sheet</h3>
+            <img src="Excelsheet.png" alt="Excel sheet">
+            <p>Excel sheet M4
+            </p>
+            <p>In module 4 My challenge was learning data processing in excel. I worked on it with a youtube course and made a really cool data processing form.                    
+            </p>
+        </div>
         </section>
 
         <section id="contact" class="section">
