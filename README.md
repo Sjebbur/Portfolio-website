@@ -63,11 +63,10 @@
                 </p>
             </div>
             <div class="portfolio-item">
-            <h3>Excel sheet</h3>
-            <img src="Excelsheet.png" alt="Excel sheet">
-            <p>Excel sheet M4
+            <h3>LinkedIn</h3>
+            <p>LinkedIn M5
             </p>
-            <p>In module 4 My challenge was learning data processing in excel. I worked on it with a youtube course and made a really cool data processing form.                    
+            <p>In module 5 My challenge was creating a LinkedIn page and making it possible for me to contact professionals that will benefit me in the future.                  
             </p>
         </div>
         </section>
