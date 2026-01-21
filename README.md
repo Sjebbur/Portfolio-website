@@ -71,6 +71,15 @@
                 <p>In module 5 I decided that I wanted to create a LinkedIn page for me to be able to interact with professionals and create my own network.
                 </p>
             </div>
+
+            <div class="portfolio-item">
+                <h3>Deciding my future</h3>
+                <img src="Goodhabitz.png" alt="Project 2">
+                <p>Deciding my future
+                </p>
+                <p>In module 6 I tried making a choice in my career path
+                </p>
+            </div>
         </section>
 
         <section id="contact" class="section">
